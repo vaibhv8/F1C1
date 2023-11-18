@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee&family=Inter&family=Montserrat&family=Nunito+Sans:opsz@6..12&family=Roboto&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+#nav-bar {
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  background: #fcaf02;
+  width: 100vw;
+  height: 86px;
+}
+
+.navbar-item1 {
+  color: #000;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.navbar-item2 {
+  justify-content: space-around;
+  color: #000;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.navbar-item2 {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  background-color: #000;
+  display: flex;
+}
+
+div > h1 {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+div > p {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 400;
+  margin: 19px;
+}
+
+div > button {
+  border-radius: 500px;
+  background: #fcaf02;
+  color: #000;
+  font-size: 32px;
+  font-weight: 700;
+  width: 323px;
+  height: 66px;
+}
+
+.contact {
+  background-color: #000;
+}
+
+.contact > h1 {
+  color: #fcaf02;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+#personalinfo{
+color: #FCAF02;
+font-size: 28px;
+font-weight: 400;
+}
